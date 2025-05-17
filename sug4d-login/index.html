@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SUG4D - Landing Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #4A90E2, #145DA0);
+      color: white;
+      text-align: center;
+    }
+    .logo {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 40px;
+      letter-spacing: 5px;
+      user-select: none;
+    }
+    .btn {
+      background-color: white;
+      color: #145DA0;
+      border: none;
+      padding: 15px 40px;
+      margin: 10px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 200px;
+    }
+    .btn:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">SUG4D</div>
+  <button class="btn" onclick="window.location.href='login.html'">Login</button>
+  <button class="btn" onclick="window.location.href='register.html'">Daftar</button>
+</body>
+</html>

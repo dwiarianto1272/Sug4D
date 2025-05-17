@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - SUG4D</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #145da0, #1e90ff);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    form {
+      background: rgba(0,0,0,0.55);
+      padding: 30px;
+      border-radius: 10px;
+      width: 320px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #1e90ff;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-size: 1.1rem;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #145da0;
+    }
+    .link {
+      margin-top: 15px;
+      text-align: center;
+    }
+    .link a {
+      color: #aaddff;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h2>Masuk ke SUG4D</h2>
+    <input type="text" placeholder="Username" required />
+    <input type="password" placeholder="Password" required />
+    <button type="submit">Masuk</button>
+    <div class="link">
+      Belum punya akun? <a href="register.html">Daftar di sini</a>
+    </div>
+  </form>
+</body>
+</html>
